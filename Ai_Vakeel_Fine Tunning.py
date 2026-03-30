@@ -110,7 +110,7 @@ tokenized_dataset = tokenized_dataset.map(
 model.save_pretrained("lora-law-model")
 tokenizer.save_pretrained("lora-law-model")
 
-model = model.merge_and_unload()   # 🔥 FIX
+model = model.merge_and_unload()   #  FIX
 
 from transformers import pipeline
 
@@ -167,7 +167,7 @@ from peft import LoraConfig, get_peft_model
 lora_config = LoraConfig(
     r=8,
     lora_alpha=16,
-    target_modules=["q_proj", "v_proj"],  # 🔥 for phi-2
+    target_modules=["q_proj", "v_proj"],  #  for phi-2
     lora_dropout=0.05,
     bias="none",
     task_type="CAUSAL_LM"
@@ -366,7 +366,7 @@ model.save_pretrained("qlora-law-model")
 tokenizer.save_pretrained("qlora-law-model")
 
 # ================================
-# Load YOUR saved model
+# Load saved model
 # ================================
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from peft import PeftModel
@@ -395,7 +395,7 @@ tokenizer.pad_token = tokenizer.eos_token
 
 
 # ================================
-# Your model pipeline
+#  model pipeline
 # ================================
 from transformers import pipeline
 
