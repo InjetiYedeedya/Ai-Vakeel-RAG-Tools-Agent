@@ -350,7 +350,7 @@ If you use duckduckgo for legal judgments, prefer results related to:
 # ### 7. Texting 
 
 
-print("Ai Vakeel 🎗⚖️ — Indian Law Assistant")
+print("Ai Vakeel — Indian Law Assistant")
 print("Type 'exit' to quit\n")
 
 while True:
@@ -399,7 +399,26 @@ while True:
 {final_answer}
 """))
 
-# ### 8. Complete image
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ### 8. Complete modified code
 
 
 import streamlit as st
