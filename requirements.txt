@@ -1,0 +1,12 @@
+
+streamlit
+langchain
+langchain-community
+langchain-huggingface
+langchain-groq
+sentence-transformers
+faiss-cpu
+duckduckgo-search
+wikipedia
+python-dotenv
+torch
